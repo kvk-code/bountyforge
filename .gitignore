@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+artifacts/
+cache/
+dist/
+typechain-types/
+
+# Environment variables - NEVER COMMIT
+.env
+.env.*
+.env.local
+.env.*.local
+
+# Private keys - NEVER COMMIT
+*.key
+*.pem
+*.p12
+broadcast/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+coverage.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Credentials (keep in parent directory)
+.credentials
